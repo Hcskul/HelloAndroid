@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="U_left">Get to know yo</string>
+    <string name="U_right">re potential!</string>
+    <string name="D_left">Learn and</string>
+    <string name="D_right">iscover new skills!</string>
+    <string name="A_left">Start to</string>
+    <string name="A_right">ccelerate yur career!</string>
+    <string name="C_left">Make an impa</string>
+    <string name="C_right">t to the world!</string>
+    <string name="I_left">Learn how to</string>
+    <string name="I_right">nterarct with problems!</string>
+    <string name="T_left">Team up</string>
+    <string name="T_right">rough the whole world!</string>
+    <string name="Y_left">Say</string>
+    <string name="Y_right">es to your chance!</string>
+    <string name="motivation">Start your journey now!</string>
+    <string name="number">650-555-5555</string>
+    <string name="address">2465 Latham St Mountain View CA 94043</string>
+    <string name="web_address">udactiy.com</string>
+</resources>
