@@ -17,7 +17,7 @@
             android:layout_height="0sp"
             android:layout_weight="5"
             android:src="@drawable/udacity_picture"
-            android:scaleType="fitCenter"
+            android:scaleType="centerCrop"
             />
 
         <RelativeLayout
