@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,8 +15,8 @@
             android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_weight="5.5"
-            android:src="@drawable/udacity_picture_2"
             android:scaleType="centerCrop"
+            android:src="@drawable/udacity_picture_2"
             />
 
         <RelativeLayout
@@ -25,8 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_weight="0.8"
-            android:gravity="center"
             android:background="#02B3E4"
+            android:gravity="center"
             >
 
             <LinearLayout
@@ -36,34 +35,34 @@
                 >
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="10"
                     android:layout_height="wrap_content"
-                    android:gravity="right"
                     android:layout_gravity="center_vertical"
+                    android:layout_weight="10"
+                    android:gravity="right"
                     android:text="@string/U_left"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="1.3"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="U"
                     android:layout_marginLeft="2sp"
                     android:layout_marginRight="2sp"
+                    android:layout_weight="1.3"
+                    android:background="#9E9E9E"
                     android:fontFamily="sans-serif"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/U"
                     android:textColor="#000000"
-                    android:background="#9E9E9E"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="10"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="10"
                     android:text="@string/U_right"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:textSize="16sp" />
 
             </LinearLayout>
 
@@ -84,34 +83,34 @@
                 >
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="10"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="10"
                     android:gravity="right"
                     android:text="@string/D_left"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="1.3"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="D"
                     android:layout_marginLeft="2sp"
                     android:layout_marginRight="2sp"
+                    android:layout_weight="1.3"
+                    android:background="#9E9E9E"
                     android:fontFamily="sans-serif"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/D"
                     android:textColor="#000000"
-                    android:background="#9E9E9E"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="10"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="10"
                     android:text="@string/D_right"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:textSize="16sp" />
 
             </LinearLayout>
 
@@ -121,8 +120,8 @@
             android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_weight="0.8"
-            android:gravity="center"
             android:background="#02B3E4"
+            android:gravity="center"
             >
 
             <LinearLayout
@@ -132,34 +131,34 @@
                 >
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="10"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="10"
                     android:gravity="right"
                     android:text="@string/A_left"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="1.3"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="A"
                     android:layout_marginLeft="2sp"
                     android:layout_marginRight="2sp"
+                    android:layout_weight="1.3"
+                    android:background="#9E9E9E"
                     android:fontFamily="sans-serif"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/A"
                     android:textColor="#000000"
-                    android:background="#9E9E9E"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="10"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="10"
                     android:text="@string/A_right"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:textSize="16sp" />
 
             </LinearLayout>
 
@@ -180,34 +179,34 @@
                 >
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="10"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="10"
                     android:gravity="right"
                     android:text="@string/C_left"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="1.3"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="C"
                     android:layout_marginLeft="2sp"
                     android:layout_marginRight="2sp"
+                    android:layout_weight="1.3"
+                    android:background="#9E9E9E"
                     android:fontFamily="sans-serif"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/C"
                     android:textColor="#000000"
-                    android:background="#9E9E9E"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="10"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="10"
                     android:text="@string/C_right"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:textSize="16sp" />
 
             </LinearLayout>
 
@@ -218,8 +217,8 @@
             android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_weight="0.8"
-            android:gravity="center"
             android:background="#02B3E4"
+            android:gravity="center"
             >
 
             <LinearLayout
@@ -229,34 +228,34 @@
                 >
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="10"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="10"
                     android:gravity="right"
                     android:text="@string/I_left"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="1.3"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="I"
                     android:layout_marginLeft="2sp"
                     android:layout_marginRight="2sp"
+                    android:layout_weight="1.3"
+                    android:background="#9E9E9E"
                     android:fontFamily="sans-serif"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/I"
                     android:textColor="#000000"
-                    android:background="#9E9E9E"/>
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="0sp"
-                    android:layout_weight="10"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="10"
                     android:text="@string/I_right"
-                    android:textSize="16sp"
-                    android:layout_gravity="center_vertical"/>
+                    android:textSize="16sp" />
 
             </LinearLayout>
 
@@ -277,34 +276,34 @@
             >
             <TextView
                 android:layout_width="0sp"
-                android:layout_weight="10"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="10"
                 android:gravity="right"
                 android:text="@string/T_left"
-                android:textSize="16sp"
-                android:layout_gravity="center_vertical"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="0sp"
-                android:layout_weight="1.3"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="T"
                 android:layout_marginLeft="2sp"
                 android:layout_marginRight="2sp"
+                android:layout_weight="1.3"
+                android:background="#9E9E9E"
                 android:fontFamily="sans-serif"
-                android:textSize="24sp"
-                android:textStyle="bold"
+                android:gravity="center"
+                android:text="@string/T"
                 android:textColor="#000000"
-                android:background="#9E9E9E"/>
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="0sp"
-                android:layout_weight="10"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="10"
                 android:text="@string/T_right"
-                android:textSize="16sp"
-                android:layout_gravity="center_vertical"/>
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -315,8 +314,8 @@
         android:layout_width="match_parent"
         android:layout_height="0sp"
         android:layout_weight="0.8"
-        android:gravity="center"
         android:background="#02B3E4"
+        android:gravity="center"
         >
 
         <LinearLayout
@@ -326,34 +325,34 @@
             >
             <TextView
                 android:layout_width="0sp"
-                android:layout_weight="10"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="10"
                 android:gravity="right"
                 android:text="@string/Y_left"
-                android:textSize="16sp"
-                android:layout_gravity="center_vertical"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="0sp"
-                android:layout_weight="1.3"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Y"
                 android:layout_marginLeft="2sp"
                 android:layout_marginRight="2sp"
+                android:layout_weight="1.3"
+                android:background="#9E9E9E"
                 android:fontFamily="sans-serif"
-                android:textSize="24sp"
-                android:textStyle="bold"
+                android:gravity="center"
+                android:text="@string/Y"
                 android:textColor="#000000"
-                android:background="#9E9E9E"/>
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="0sp"
-                android:layout_weight="10"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="10"
                 android:text="@string/Y_right"
-                android:textSize="16sp"
-                android:layout_gravity="center_vertical"/>
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -364,13 +363,13 @@
             android:layout_width="match_parent"
             android:layout_height="0sp"
             android:layout_weight="1"
+            android:background="#9E9E9E"
+            android:fontFamily="sans-serif"
             android:gravity="center"
             android:text="@string/motivation"
-            android:fontFamily="sans-serif"
+            android:textColor="#000000"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:textColor="#000000"
-            android:background="#9E9E9E"
             />
 
 
@@ -395,20 +394,21 @@
                 <ImageView
                     android:layout_width="0sp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/url_icon"
                     android:layout_gravity="center"
-                    android:paddingLeft="3sp"/>
+                    android:layout_weight="1"
+                    android:paddingLeft="3sp"
+                    android:src="@drawable/url_icon" />
 
                 <TextView
                     android:layout_width="0sp"
                     android:layout_height="match_parent"
                     android:layout_weight="4"
-                    android:text="@string/web_address"
+                    android:autoLink="web"
                     android:gravity="center"
+                    android:text="@string/web_address"
+                    android:textColor="#000000"
                     android:textSize="18sp"
-                    android:textStyle="bold|italic"
-                    android:textColor="#000000"/>
+                    android:textStyle="bold|italic" />
 
             </LinearLayout>
 
@@ -420,20 +420,21 @@
                 <ImageView
                     android:layout_width="0sp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/phone_icon"
                     android:layout_gravity="center"
-                    android:paddingLeft="3sp"/>
+                    android:layout_weight="1"
+                    android:paddingLeft="3sp"
+                    android:src="@drawable/phone_icon" />
 
                 <TextView
                     android:layout_width="0sp"
                     android:layout_height="match_parent"
                     android:layout_weight="4"
-                    android:text="@string/number"
+                    android:autoLink="phone"
                     android:gravity="center"
+                    android:text="@string/number"
+                    android:textColor="#000000"
                     android:textSize="18sp"
-                    android:textStyle="bold|italic"
-                    android:textColor="#000000"/>
+                    android:textStyle="bold|italic" />
 
 
             </LinearLayout>
@@ -443,11 +444,11 @@
             android:layout_width="0sp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/address"
-            android:textSize="18sp"
             android:gravity="center"
-            android:textStyle="italic"
+            android:text="@string/address"
             android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="italic"
             />
 
     </LinearLayout>
